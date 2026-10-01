@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dear Sir Randy — A Scrapbook</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="grain"></div>
+  <div class="blob blob-a"></div>
+  <div class="blob blob-b"></div>
+
+  <header class="topbar">
+    <div class="brand">DEAR SIR RANDY <span>♡</span></div>
+    <div class="page-counter"><span id="current">01</span> / <span id="total">06</span></div>
+  </header>
+
+  <main class="book-area">
+    <section class="book" id="book">
+
+      <!-- PAGE 1 -->
+      <article class="page active" data-page="1">
+        <div class="page-inner cover-page">
+          <div class="stamp">A SPECIAL<br>NOTE</div>
+          <div class="flower">✿</div>
+          <p class="small-caps">TEACHERS' DAY • 2026</p>
+          <h1>Dear<br><em>Sir Randy,</em></h1>
+          <p class="cover-line">A little scrapbook made<br>with a lot of gratitude.</p>
+          <div class="cover-doodle">✦　♡　✦</div>
+        </div>
+      </article>
+
+      <!-- PAGE 2 -->
+      <article class="page" data-page="2">
+        <div class="page-inner">
+          <span class="tape tape-1"></span>
+          <p class="section-label">01 — THANK YOU</p>
+          <h2>For all the little<br><em>things.</em></h2>
+
+          <div class="quote-card">
+            <div class="quote-mark">“</div>
+            <p>Great teachers don't only teach subjects. They leave little pieces of wisdom in the people they teach.</p>
+            <span>— a grateful student</span>
+          </div>
+
+          <div class="mini-notes">
+            <div>☼ Your patience</div>
+            <div>✎ Your guidance</div>
+            <div>♡ Your kindness</div>
+          </div>
+
+          <p class="bottom-note">Some things may seem small, but they become memories we carry for a long time.</p>
+        </div>
+      </article>
+
+      <!-- PAGE 3 -->
+      <article class="page" data-page="3">
+        <div class="page-inner photo-page">
+          <span class="tape tape-photo"></span>
+          <p class="section-label">02 — A MEMORY</p>
+
+          <div class="photo-polaroid">
+            <img src="teacher-photo.jpg" alt="Photo of Sir Randy" id="teacherPhoto">
+            <div class="photo-placeholder" id="photoPlaceholder">
+              <strong>PLACE TEACHER<br>PHOTO HERE</strong>
+              <small>teacher-photo.jpg</small>
+            </div>
+            <p>Sir Randy<br>we'll remember ♡</p>
+          </div>
+
+          <div class="side-note">This page is for<br>a favorite memory,<br>moment, or photo.</div>
+          <div class="star star-1">✦</div>
+          <div class="star star-2">✧</div>
+        </div>
+      </article>
+
+      <!-- PAGE 4 -->
+      <article class="page" data-page="4">
+        <div class="page-inner message-page">
+          <p class="section-label">03 — FROM THE HEART</p>
+          <p class="handwriting">Dear Sir Randy,</p>
+
+          <p class="body-text">
+            Thank you for every lesson you patiently explained,
+            every question you answered, and every time you encouraged
+            us to keep trying.
+          </p>
+
+          <p class="body-text">
+            School is not always easy, but your kindness and guidance
+            can make difficult days feel a little lighter. You remind us
+            that learning is not only about getting the right answer,
+            but also about growing, trying, and believing in ourselves.
+          </p>
+
+          <div class="highlight-note">
+            <span>♡</span>
+            Thank you for believing in us,
+            even when we were still learning
+            to believe in ourselves.
+          </div>
+
+          <p class="signature">With heartfelt gratitude,<br><b>Your student ♡</b></p>
+        </div>
+      </article>
+
+      <!-- PAGE 5 -->
+      <article class="page" data-page="5">
+        <div class="page-inner lessons-page">
+          <span class="tape tape-2"></span>
+          <p class="section-label">04 — LESSONS TO KEEP</p>
+          <h2>More than<br><em>a subject.</em></h2>
+
+          <div class="lesson">
+            <span>01</span>
+            <div><b>Keep trying.</b><br><small>Progress takes patience.</small></div>
+          </div>
+          <div class="lesson">
+            <span>02</span>
+            <div><b>Be kind.</b><br><small>Kindness can change someone's day.</small></div>
+          </div>
+          <div class="lesson">
+            <span>03</span>
+            <div><b>Believe in yourself.</b><br><small>Growth starts with courage.</small></div>
+          </div>
+          <div class="lesson">
+            <span>04</span>
+            <div><b>Never stop learning.</b><br><small>Every experience teaches something.</small></div>
+          </div>
+
+          <div class="corner-flower">❀</div>
+        </div>
+      </article>
+
+      <!-- PAGE 6 -->
+      <article class="page" data-page="6">
+        <div class="page-inner final-page">
+          <div class="final-ring">♡</div>
+          <p class="small-caps">WITH GRATITUDE</p>
+          <h2>Happy<br><em>Teachers' Day!</em></h2>
+          <p class="final-message">
+            Thank you for teaching, guiding,<br>
+            encouraging, and believing in us.
+          </p>
+          <div class="line"></div>
+          <p class="final-small">Your lessons may end when class does,<br>but their impact stays with us.</p>
+          <div class="final-doodle">✦　✿　♡　✿　✦</div>
+        </div>
+      </article>
+
+    </section>
+
+    <nav class="controls" aria-label="Scrapbook navigation">
+      <button id="prevBtn" type="button">← Previous</button>
+      <div class="dots" id="dots"></div>
+      <button id="nextBtn" type="button">Next →</button>
+    </nav>
+
+    <p class="hint">Use the buttons or keyboard ← → to turn the pages</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
